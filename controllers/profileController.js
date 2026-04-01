@@ -19,7 +19,7 @@ const calculateScore = async (profile) => {
   let status = "Not Ready";
 
   try {
-    const mlResponse = await axios.post("http://127.0.0.1:8000/ml/evaluate", {
+    const mlResponse = await axios.post("https://placement-ml-api-s9nj.onrender.com/ml/evaluate", {
       cgpa,
       dsa_score: dsa,
       aptitude,
@@ -209,7 +209,7 @@ exports.uploadResume = async (req, res) => {
     };
 
     try {
-      const mlResponse = await axios.post("http://localhost:8000/ml/parse-resume", {
+      const mlResponse = await axios.post("https://placement-ml-api-s9nj.onrender.com/ml/parse-resume", {
         file_content: base64Content
       });
       parsedData = mlResponse.data;
