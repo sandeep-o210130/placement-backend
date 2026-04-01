@@ -189,16 +189,13 @@ exports.updateProfile = async (req, res) => {
 };
 
 
-const fs = require("fs");
 exports.uploadResume = async (req, res) => {
   try {
     if (!req.file) {
       return res.status(400).json({ message: "No file uploaded" });
     }
 
-    const resumePath = req.file.path;
-    const dataBuffer = fs.readFileSync(resumePath);
-    const base64Content = dataBuffer.toString("base64");
+    const base64Content = req.file.buffer.toString("base64");
 
     
     let parsedData = {
