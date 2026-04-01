@@ -1,0 +1,64 @@
+[35mconfig/passport.js[m[36m:[mconst [1;31mGoogle[mStrategy = require("passport-[1;31mgoogle[m-oauth20").Strategy;
+[35mconfig/passport.js[m[36m:[m  new [1;31mGoogle[mStrategy(
+[35mconfig/passport.js[m[36m:[m      clientID: "17812559871-h722hhchivsoie9koii3oit891eunbn5.apps.[1;31mgoogle[musercontent.com",
+[35mconfig/passport.js[m[36m:[m      callbackURL: "http://localhost:5000/auth/[1;31mgoogle[m/callback"
+[35mconfig/passport.js[m[36m:[m            [1;31mgoogle[mId: profile.id
+[35mmodels/User.js[m[36m:[m  [1;31mgoogle[mId: {
+[35mnode_modules/.package-lock.json[m[36m:[m    "node_modules/passport-[1;31mgoogle[m-oauth20": {
+[35mnode_modules/.package-lock.json[m[36m:[m      "resolved": "https://registry.npmjs.org/passport-[1;31mgoogle[m-oauth20/-/passport-[1;31mgoogle[m-oauth20-2.0.0.tgz",
+[35mnode_modules/cookie/README.md[m[36m:[m  parse accounts.[1;31mgoogle[m.com x 2,588,913 ops/sec ±0.74% (186 runs sampled)
+[35mnode_modules/cookie/README.md[m[36m:[m  parse docs.[1;31mgoogle[m.com     x 2,194,157 ops/sec ±1.03% (184 runs sampled)
+[35mnode_modules/cookie/README.md[m[36m:[m  parse drive.[1;31mgoogle[m.com    x 2,265,084 ops/sec ±0.79% (187 runs sampled)
+[35mnode_modules/cookie/README.md[m[36m:[m  parse maps.[1;31mgoogle[m.com     x 1,230,959 ops/sec ±0.98% (186 runs sampled)
+[35mnode_modules/cookie/README.md[m[36m:[m  parse play.[1;31mgoogle[m.com     x 2,311,338 ops/sec ±0.83% (185 runs sampled)
+[35mnode_modules/cookie/README.md[m[36m:[m  parse support.[1;31mgoogle[m.com  x 1,508,850 ops/sec ±0.86% (186 runs sampled)
+[35mnode_modules/cookie/README.md[m[36m:[m  parse www.[1;31mgoogle[m.com      x 1,022,582 ops/sec ±1.32% (182 runs sampled)
+[35mnode_modules/express-session/README.md[m[36m:[m[![★][@[1;31mgoogle[m-cloud/connect-datastore-image] @[1;31mgoogle[m-cloud/connect-datastore][@[1;31mgoogle[m-cloud/connect-datastore-url] A [[1;31mGoogle[m Cloud Datastore](https://cloud.[1;31mgoogle[m.com/datastore/docs/concepts/overview)-based session store.
+[35mnode_modules/express-session/README.md[m[36m:[m[@[1;31mgoogle[m-cloud/connect-datastore-url]: https://www.npmjs.com/package/@[1;31mgoogle[m-cloud/connect-datastore
+[35mnode_modules/express-session/README.md[m[36m:[m[@[1;31mgoogle[m-cloud/connect-datastore-image]: https://badgen.net/github/stars/[1;31mGoogle[mCloudPlatform/cloud-datastore-session-node?label=%E2%98%85
+[35mnode_modules/express-session/README.md[m[36m:[m[![★][@[1;31mgoogle[m-cloud/connect-firestore-image] @[1;31mgoogle[m-cloud/connect-firestore][@[1;31mgoogle[m-cloud/connect-firestore-url] A [[1;31mGoogle[m Cloud Firestore](https://cloud.[1;31mgoogle[m.com/firestore/docs/overview)-based session store.
+[35mnode_modules/express-session/README.md[m[36m:[m[@[1;31mgoogle[m-cloud/connect-firestore-url]: https://www.npmjs.com/package/@[1;31mgoogle[m-cloud/connect-firestore
+[35mnode_modules/express-session/README.md[m[36m:[m[@[1;31mgoogle[m-cloud/connect-firestore-image]: https://badgen.net/github/stars/[1;31mgoogle[mapis/nodejs-firestore-session?label=%E2%98%85
+[35mnode_modules/express-session/README.md[m[36m:[m[![★][connect-session-firebase-image] connect-session-firebase][connect-session-firebase-url] A session store based on the [Firebase Realtime Database](https://firebase.[1;31mgoogle[m.com/docs/database/)
+[35mnode_modules/ipaddr.js/README.md[m[36m:[mvar bytes = ipaddr.parse('2a00:1450:8007::68').toByteArray(); // ipv6.[1;31mgoogle[m.com
+[35mnode_modules/mime-db/HISTORY.md[m[36m:[m  * Add [1;31mGoogle[m Drive MIME types (#311)
+[35mnode_modules/mime-db/HISTORY.md[m[36m:[m  * Add [1;31mGoogle[m document types
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.audio": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.document": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.drawing": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.drive-sdk": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.file": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.folder": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.form": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.fusiontable": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.jam": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.mail-layout": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.map": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.photo": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.presentation": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.script": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.shortcut": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.site": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.spreadsheet": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.unknown": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.video": {},
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-earth.kml+xml": {
+[35mnode_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-earth.kmz": {
+[35mnode_modules/mongodb/lib/cmap/auth/mongodb_oidc/gcp_machine_workflow.js[m[36m:[mconst GCP_HEADERS = Object.freeze({ 'Metadata-Flavor': '[1;31mGoogle[m' });
+[35mnode_modules/mongodb/mongodb.d.ts[m[36m:[m     * KMS URL, defaults to `https://www.[1;31mgoogle[mapis.com/auth/cloudkms`
+[35mnode_modules/mongodb/mongodb.d.ts[m[36m:[m     * Defaults to "oauth2.[1;31mgoogle[mapis.com"
+[35mnode_modules/mongodb/src/client-side-encryption/client_encryption.ts[m[36m:[m   * KMS URL, defaults to `https://www.[1;31mgoogle[mapis.com/auth/cloudkms`
+[35mnode_modules/mongodb/src/client-side-encryption/providers/index.ts[m[36m:[m       * Defaults to "oauth2.[1;31mgoogle[mapis.com"
+[35mnode_modules/mongodb/src/cmap/auth/mongodb_oidc/gcp_machine_workflow.ts[m[36m:[mconst GCP_HEADERS = Object.freeze({ 'Metadata-Flavor': '[1;31mGoogle[m' });
+[35mnode_modules/mongoose/README.md[m[36m:[m* [Help Forum](http://groups.[1;31mgoogle[m.com/group/mongoose-orm)
+[35mnode_modules/multer/node_modules/mime-db/HISTORY.md[m[36m:[m  * Add [1;31mGoogle[m document types
+[35mnode_modules/multer/node_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.document": {
+[35mnode_modules/multer/node_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.presentation": {
+[35mnode_modules/multer/node_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-apps.spreadsheet": {
+[35mnode_modules/multer/node_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-earth.kml+xml": {
+[35mnode_modules/multer/node_modules/mime-db/db.json[m[36m:[m  "application/vnd.[1;31mgoogle[m-earth.kmz": {
+[35mnode_modules/nodemailer/lib/mime-funcs/mime-types.js[m[36m:[m    ['application/vnd.[1;31mgoogle[m-earth.kml+xml', 'kml'],
+[35mnode_modules/nodemailer/lib/mime-funcs/mime-types.js[m[36m:[m    ['application/vnd.[1;31mgoogle[m-earth.kmz', 'kmz'],
+[35mnode_modules/nodemailer/lib/mime-funcs/mime-types.js[m[36m:[m    ['kml', 'application/vnd.[1;31mgoogle[m-earth.kml+xml'],
+[35mnode_modules/nodemailer/lib/mime-funcs/mime-types.js[m[36m:[m    ['kmz', 'application/vnd.[1;31mgoogle[m-earth.kmz'],
+[35mnode_modules/nodemailer/lib/smtp-connection/http-proxy-client.js[m[36m:[m * httpProxyClient("http://localhost:3128/", 80, "[1;31mg
